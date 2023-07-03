@@ -10,5 +10,4 @@ ReactDOM.render(
         <mainContent />
     </div>,
     document.getElementById("root")
-    
 )
