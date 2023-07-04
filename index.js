@@ -1,35 +1,20 @@
-// ReactDOM.render(<h1> Hello Everyone!!</h1>, document.getElementById("root"));
-// ReactDOM.render(<ul><li>Banana</li><li>Orange</li><li>Apple</li></ul>, document.getElementById("list"));
-const page = (
-    <div>
-        <h1 className = "header">This is JSX</h1>
-    </div>
+import React from "react"
+import ReactDOM from "react-dom"
+
+const heading = (
+    <div><h1>Fun Facts About React</h1></div>
 )
 
-ReactDOM.render(page, document.getElementById("list"));
+// const list = (
+//     <div>
+//         <ul>
+//             <li>Was first released in 2013</li>
+//             <li>Was originally created by Jordan Walke</li>
+//             <li>Has well over 100k stars over GitHub</li>
+//             <li>Powers thousands of enterprise apps, including mobile apps</li>
+//         </ul>
+//     </div>
+// )
 
-const list =(
-    <nav>
-        <h1 className = "website"> My Website</h1>
-        <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Career</li>
-        </ul>
-    </nav>
-)
-
-ReactDOM.render(list, document.getElementById("nav"))
-
-function MainContent(){
-    return (
-    <h1>I'm learning react</h1>
-    )
-}
-
-ReactDOM.render(
-    <div>
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+ReactDOM.render(heading, document.getElementById("root"))
+ReactDOM.render(list, document.getElementById("list"))
