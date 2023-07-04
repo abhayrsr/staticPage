@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
